@@ -1,0 +1,2 @@
+The scanf() function reads the sequence of characters until it encounters a whitespace (space, newline, tab etc.).
+You can use gets() function to read a line of string. And, you can use puts() to display the string.
