@@ -3,3 +3,4 @@ You can use gets() function to read a line of string. And, you can use puts() to
 To input two integers separated by a space on a single line, the command is scanf("%d %d", &n, &m), where  and  are the two integers.\n
 The sum of numbers on two opposite faces of a dice is 7.
 
+Who calls the main() function in C/C++ ??? ans is 'OS'
