@@ -1,6 +1,19 @@
 The scanf() function reads the sequence of characters until it encounters a whitespace (space, newline, tab etc.).\n
 You can use gets() function to read a line of string. And, you can use puts() to display the string.\n
 To input two integers separated by a space on a single line, the command is scanf("%d %d", &n, &m), where  and  are the two integers.\n
-The sum of numbers on two opposite faces of a dice is 7.
+The sum of numbers on two opposite faces of a dice is 7.\n
 
-Who calls the main() function in C/C++ ??? ans is 'OS'
+Who calls the main() function in C/C++ ??? ans is 'OS' . \n
+ arr[3 / 2] = 2; // this is same as arr[1] = 2.\n
+ No Index Out of bound Checking:
+There is no index out of bound checking in C, for example the following program compiles fine but may produce unexpected output when run.\n
+Also, In C, it is not compiler error to initialize an array with more elements than specified size./n
+sizeof a pointer is printed which is same for all type of pointers which may be 4 and 8./n
+   int *ptr = arr; //[HERE ARR IS DIRECTLY ASSIGN TO POINTER Assigns address of array to ptr ./n
+Array members are accessed using pointer ->    printf("*(arr + 2) = %d\n", *(arr + 2)); .\n
+int *p -> after defining we have to use pointer diretly by name like p = 10; if we want the value of p then only we have to use *p.\n
+int fun(int ptr[]) {  //THIS IS CATCH ARRAY AS POINTER} .\n
+int main{
+  add(2,3)--> ACTUAL ARGUEMENT
+  }
+int add(int a,int b){} .\n
