@@ -1,0 +1,22 @@
+An ‘int’ type variable in C language is able to store only numbers till 2147483647. Beyond this number ‘int’ fails to store precisely and even not correctly./n
+The Below code is also correct but not a good practise. it is never a good idea to use “void main()” or just “main()” as it doesn’t confirm standards. It may be allowed by some compilers though.Difference between “int main()” and “int main(void)” in C/C++?
+In C++, both fun() and fun(void) are same.
+ in C, int main() can be called with any number of arguments, but int main(void) can only be called without any argument. 
+#include <stdio.h>
+main()
+{
+    printf("Hello World");
+}/n
+Difference between “int main()” and “int main(void)” in C/C++?
+In C++, both fun() and fun(void) are same.
+In C, int main() can be called with any number of arguments, but int main(void) can only be called without any argument. /n
+In a C program, all lines that start with # are processed by preprocessor which is a special program invoked by the compiler. In a very basic term, preprocessor takes a C program and produces another C program without any #./n
+Interesting Facts about Macros and Preprocessors in C
+COMPLIER SE BHI PEHLE PREPROCESSOR KA PROGRAM RUN HOTA HAI. JO .C PROGRAM SE EK NEW .C PROGRAM BANANA HAI ,JISME SARE PREPROCESSOR COMANDS (ALWAYS STARTING WITH #) KO EXCECUTE KRDETA HAI ,
+JESE IN .C PROGRAM WE WRITE #INCLUDE<STDIO.H> TO VO EK NEW PROGRAM BNA DEGA OR USME STDIO.H FILE INLCULDED HOGI AND ETC....
+EG. OF PREPROCESSOR CMNDS 
+#INDLUDE <STDIO.H>
+#DEFINE PI 3.14   (HERE PI IS MACROS)
+#UNDEF PI (REMOVE THE PRESENCE OF PI)
+WE CAN ALSO USE LIKE #INCLUDE SUM(A,B) A+B
+IN PROGRAM WE CAN USE SUM(2+3)--> IT GIVES 5
