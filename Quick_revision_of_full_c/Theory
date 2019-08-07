@@ -19,4 +19,5 @@ EG. OF PREPROCESSOR CMNDS
 #DEFINE PI 3.14   (HERE PI IS MACROS)
 #UNDEF PI (REMOVE THE PRESENCE OF PI)
 WE CAN ALSO USE LIKE #INCLUDE SUM(A,B) A+B
-IN PROGRAM WE CAN USE SUM(2+3)--> IT GIVES 5
+IN PROGRAM WE CAN USE SUM(2+3)--> IT GIVES 5    /n
+There are some standard macros which can be used to print program file (__FILE__), Date of compilation (__DATE__), Time of compilation (__TIME__) and Line Number in C code (__LINE__)
