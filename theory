@@ -17,3 +17,7 @@ int main{
   add(2,3)--> ACTUAL ARGUEMENT
   }
 int add(int a,int b){} .\n
+-----------------------------------------------------------------------------------------------
+ An ‘int’ type variable in C language is able to store only numbers till 2147483647. Beyond this number ‘int’ fails to store precisely and even not correctly.
+ ----------------------------------------------------------------------------------------------
+ 
