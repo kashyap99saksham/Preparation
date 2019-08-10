@@ -21,3 +21,21 @@ EG. OF PREPROCESSOR CMNDS
 WE CAN ALSO USE LIKE #INCLUDE SUM(A,B) A+B
 IN PROGRAM WE CAN USE SUM(2+3)--> IT GIVES 5    /n
 There are some standard macros which can be used to print program file (__FILE__), Date of compilation (__DATE__), Time of compilation (__TIME__) and Line Number in C code (__LINE__)
+/N
+When a constant value starts with 0, it is considered as octal number. Therefore the value of x is 3*8 + 2 = 26
+/N
+int var_9 = 1; //VALID
+int 9_var = 2; //INVALID
+int _ = 3;   //VALID :)
+In C language, a variable name can consists of letters, digits and underscore i.e. _ . But a variable name has to start with either letter or underscore. It can't start with a digit. So valid variables are var_9 and _ from the above question. Even two back to back underscore i.e. __ is also a valid variable name. Even _9 is a valid variable. But 9var and 9_ are invalid variables in C. This will be caught at the time of compilation itself. T
+ /N
+ When a local variable is defined, it is not initialized by the system, you must initialize it yourself. 
+ Global variables are initialized automatically by the system when you define them as follows −
+
+Data Type	Initial Default Value
+int	       0
+char	      '\0'
+float	     0
+double	    0
+pointer   	NULL
+/n
