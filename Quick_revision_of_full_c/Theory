@@ -42,3 +42,45 @@ pointer   	NULL
 
 In C, static and global variables are initialized by the compiler itself. 
 /N
+“float”, “double” and “long double”, the right format specifiers are %f, %lf and %Lf 
+/N
+ signed s;
+ unsigned u;
+ long l;
+ long long ll;
+ All of the above variable definitions are correct because int is implicitly assumed in all of these.
+/N
+ MODIFIERS IN C
+ long
+ short 
+ signed
+ unsigned
+ long long
+/N
+
+1. If no data type is given to a variable, the compiler automatically converts it to int data type.
+2. Signed is the default modifier for char and int data types.
+3. We can’t use any modifiers in float data type. If programmer tries to use it ,the compiler automatically gives compile time error.
+4. Only long modifier is allowed in double data types. We cant use any other specifier with double data type. If we try any other specifier, compiler will give compile time error.
+/N
+
+// An example of implicit conversion 
+#include<stdio.h> 
+int main() 
+{ 
+    int x = 10;    // integer x 
+    char y = 'a';  // character c 
+  
+    // y implicitly converted to int. ASCII  
+    // value of 'a' is 97 
+    x = x + y; 
+     
+    // x is implicitly converted to float 
+    float z = x + 1.0; 
+  
+    printf("x = %d, z = %f", x, z); 
+    return 0; 
+} 
+Output:
+
+x = 107, z = 108.000000
