@@ -8,6 +8,6 @@ return 0;
 
 
 
-//declare kitni bhi baar kr skte hai but define sirf 1 baar hoga (with declaration)
+//declare kitni bhi baar kr skte hai(IN GLOBAL VARIABLE) but define sirf 1 baar hoga (with declaration)
 
 
