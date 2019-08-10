@@ -39,3 +39,6 @@ float	     0
 double	    0
 pointer   	NULL
 /n
+
+In C, static and global variables are initialized by the compiler itself. 
+/N
