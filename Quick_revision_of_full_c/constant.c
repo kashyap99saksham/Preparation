@@ -1,3 +1,4 @@
+//CONST VALUE CANT NOT CHANGE AFTER DEFINE
 #include<stdio.h>
 int main()
 {
@@ -5,3 +6,4 @@ int main()
     a = 20;
     printf("%d",a);
 }
+//ERROR , COZ A = 10 WHICH IS DEFINED AND AGAIN IT IS MODIFIED WITH 20
