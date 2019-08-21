@@ -1,0 +1,1 @@
+A header file contains the declaration of functions like iostream, printf, scanf, pow, etc. A library contains its definition.
